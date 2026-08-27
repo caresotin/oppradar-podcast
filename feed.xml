@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OppRadar Signals</title>
+    <link>https://oppradar.dev</link>
+    <description>AI opportunities for one-person companies — from a 20-year export veteran, in 3 minutes. Real signals, no noise. Full data at oppradar.dev</description>
+    <language>en</language>
+    <category>Technology</category>
+    <itunes:author>OppRadar Signals</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://oppradar-podcast.github.io/oppradar-podcast/cover.jpg"/>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>OppRadar Signals</itunes:name>
+      <itunes:email>caresotin@gmail.com</itunes:email>
+    </itunes:owner>
+    <atom:link href="https://oppradar-podcast.github.io/oppradar-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+      <title>EP1: Codex Agency Agents</title>
+      <description>Codex Agency Agents — curated and verified by OppRadar Signals. Find opportunities worth your time at https://oppradar.dev</description>
+      <pubDate>Thu, 27 Aug 2026 06:23:01 +0000</pubDate>
+      <enclosure url="https://oppradar-podcast.github.io/oppradar-podcast/audio/EP1_codex_agency_agents.mp3" length="523388" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://oppradar-podcast.github.io/oppradar-podcast/audio/EP1_codex_agency_agents.mp3</guid>
+      <itunes:title>EP1: Codex Agency Agents</itunes:title>
+      <itunes:summary>Codex Agency Agents — curated and verified. Full data at oppradar.dev</itunes:summary>
+      <itunes:duration>00:01:30</itunes:duration>
+    </item>
+  </channel>
+</rss>
