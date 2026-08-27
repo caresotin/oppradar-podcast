@@ -27,5 +27,15 @@
       <itunes:summary>Codex Agency Agents — curated and verified. Full data at oppradar.dev</itunes:summary>
       <itunes:duration>00:01:30</itunes:duration>
     </item>
+    <item>
+      <title>EP2: Daily Brief First Episode</title>
+      <description>Daily Brief First Episode — curated and verified by OppRadar Signals. Find opportunities worth your time at https://oppradar.dev</description>
+      <pubDate>Thu, 27 Aug 2026 06:46:03 +0000</pubDate>
+      <enclosure url="https://oppradar-podcast.github.io/oppradar-podcast/audio/EP2_daily_brief_first_episode.mp3" length="1096704" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://oppradar-podcast.github.io/oppradar-podcast/audio/EP2_daily_brief_first_episode.mp3</guid>
+      <itunes:title>EP2: Daily Brief First Episode</itunes:title>
+      <itunes:summary>Daily Brief First Episode — curated and verified. Full data at oppradar.dev</itunes:summary>
+      <itunes:duration>00:01:30</itunes:duration>
+    </item>
   </channel>
 </rss>
