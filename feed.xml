@@ -37,5 +37,15 @@
       <itunes:summary>Daily Brief First Episode — curated and verified. Full data at oppradar.dev</itunes:summary>
       <itunes:duration>00:03:02</itunes:duration>
     </item>
+    <item>
+      <title>EP3: Daily Brief 20260828</title>
+      <description>Daily Brief 20260828 — curated and verified by OppRadar Signals. Find opportunities worth your time at https://oppradar.dev</description>
+      <pubDate>Fri, 28 Aug 2026 12:26:41 +0000</pubDate>
+      <enclosure url="https://caresotin.github.io/oppradar-podcast/audio/EP3_daily_brief_20260828.mp3" length="708048" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://caresotin.github.io/oppradar-podcast/audio/EP3_daily_brief_20260828.mp3</guid>
+      <itunes:title>EP3: Daily Brief 20260828</itunes:title>
+      <itunes:summary>Daily Brief 20260828 — curated and verified. Full data at oppradar.dev</itunes:summary>
+      <itunes:duration>00:01:58</itunes:duration>
+    </item>
   </channel>
 </rss>
