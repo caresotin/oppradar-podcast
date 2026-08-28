@@ -5,13 +5,13 @@ OppRadar Signals 播客 RSS 生成器 (2026-08-27)
 功能: 扫描 audio/ 目录的 mp3 → 生成标准播客 RSS feed.xml
 用法: python gen_rss.py   (音频放 audio/ 目录, 命名 EP1_xxx.mp3, EP2_xxx.mp3 ...)
 """
-import os, re, datetime
+import os, re, datetime, subprocess
 
 BASE = r"D:\oppradar-podcast"
 AUDIO_DIR = os.path.join(BASE, "audio")
 os.makedirs(AUDIO_DIR, exist_ok=True)
 
-BASE_URL = "https://oppradar-podcast.github.io/oppradar-podcast/"
+BASE_URL = "https://caresotin.github.io/oppradar-podcast/"
 
 # 节目信息
 SHOW = {
@@ -39,6 +39,21 @@ def parse_ep(title):
 def fmt_date(dt):
     return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
 
+def get_duration(path):
+    """用 ffprobe 读音频真实时长, 格式化为 HH:MM:SS"""
+    try:
+        import shutil
+        ffprobe = shutil.which("ffprobe")
+        if not ffprobe:
+            return "00:01:30"
+        r = subprocess.run([ffprobe, "-v", "quiet", "-show_entries", "format=duration",
+                            "-of", "csv=p=0", path], capture_output=True, text=True, timeout=15)
+        secs = float(r.stdout.strip())
+        h = int(secs // 3600); m = int(secs % 3600 // 60); s = int(secs % 60)
+        return f"{h:02d}:{m:02d}:{s:02d}"
+    except Exception:
+        return "00:01:30"
+
 def gen_rss():
     items = []
     files = sorted([f for f in os.listdir(AUDIO_DIR) if f.endswith(".mp3")])
@@ -56,7 +71,7 @@ def gen_rss():
       <guid isPermaLink="true">{BASE_URL}audio/{f}</guid>
       <itunes:title>{ep_title}</itunes:title>
       <itunes:summary>{name} — curated and verified. Full data at oppradar.dev</itunes:summary>
-      <itunes:duration>00:01:30</itunes:duration>
+      <itunes:duration>{get_duration(path)}</itunes:duration>
     </item>""")
 
     rss = f"""<?xml version="1.0" encoding="UTF-8"?>

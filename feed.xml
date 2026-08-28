@@ -8,7 +8,7 @@
     <category>Technology</category>
     <itunes:author>OppRadar Signals</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:image href="https://oppradar-podcast.github.io/oppradar-podcast/cover.jpg"/>
+    <itunes:image href="https://caresotin.github.io/oppradar-podcast/cover.jpg"/>
     <itunes:category text="Technology">
       <itunes:category text="Tech News"/>
     </itunes:category>
@@ -16,26 +16,26 @@
       <itunes:name>OppRadar Signals</itunes:name>
       <itunes:email>caresotin@gmail.com</itunes:email>
     </itunes:owner>
-    <atom:link href="https://oppradar-podcast.github.io/oppradar-podcast/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://caresotin.github.io/oppradar-podcast/feed.xml" rel="self" type="application/rss+xml"/>
         <item>
       <title>EP1: Codex Agency Agents</title>
       <description>Codex Agency Agents — curated and verified by OppRadar Signals. Find opportunities worth your time at https://oppradar.dev</description>
       <pubDate>Thu, 27 Aug 2026 06:23:01 +0000</pubDate>
-      <enclosure url="https://oppradar-podcast.github.io/oppradar-podcast/audio/EP1_codex_agency_agents.mp3" length="523388" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://oppradar-podcast.github.io/oppradar-podcast/audio/EP1_codex_agency_agents.mp3</guid>
+      <enclosure url="https://caresotin.github.io/oppradar-podcast/audio/EP1_codex_agency_agents.mp3" length="523388" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://caresotin.github.io/oppradar-podcast/audio/EP1_codex_agency_agents.mp3</guid>
       <itunes:title>EP1: Codex Agency Agents</itunes:title>
       <itunes:summary>Codex Agency Agents — curated and verified. Full data at oppradar.dev</itunes:summary>
-      <itunes:duration>00:01:30</itunes:duration>
+      <itunes:duration>00:01:27</itunes:duration>
     </item>
     <item>
       <title>EP2: Daily Brief First Episode</title>
       <description>Daily Brief First Episode — curated and verified by OppRadar Signals. Find opportunities worth your time at https://oppradar.dev</description>
       <pubDate>Thu, 27 Aug 2026 06:46:03 +0000</pubDate>
-      <enclosure url="https://oppradar-podcast.github.io/oppradar-podcast/audio/EP2_daily_brief_first_episode.mp3" length="1096704" type="audio/mpeg"/>
-      <guid isPermaLink="true">https://oppradar-podcast.github.io/oppradar-podcast/audio/EP2_daily_brief_first_episode.mp3</guid>
+      <enclosure url="https://caresotin.github.io/oppradar-podcast/audio/EP2_daily_brief_first_episode.mp3" length="1096704" type="audio/mpeg"/>
+      <guid isPermaLink="true">https://caresotin.github.io/oppradar-podcast/audio/EP2_daily_brief_first_episode.mp3</guid>
       <itunes:title>EP2: Daily Brief First Episode</itunes:title>
       <itunes:summary>Daily Brief First Episode — curated and verified. Full data at oppradar.dev</itunes:summary>
-      <itunes:duration>00:01:30</itunes:duration>
+      <itunes:duration>00:03:02</itunes:duration>
     </item>
   </channel>
 </rss>
